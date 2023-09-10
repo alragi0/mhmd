@@ -8,7 +8,7 @@ from colorama import Fore
 from hh import keep_alive
 
 sto = {"stop": False}
-token = "6634323795:AAH8K5z5O4DSPfrJ4xyyzr20K5HZve1ONj4"
+token = "5838317723:AAHaQhqUNIu3-crweFdHqhFBPxVaiBxfGRc"
 id = 6371200914
 bot = telebot.TeleBot(token, parse_mode="HTML")
 
